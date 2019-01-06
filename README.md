@@ -1,10 +1,10 @@
 # konversi-waktu
 
 
-#include<iostream>
-using namespace std;
-int main ()
-{
+    #include<iostream>
+    using namespace std;
+    int main ()
+    {
     int s,hari,jam,menit,detik,sisa;
     cout<<"Konversi Detik ke Hari, Jam, Menit, Detik"; cout<<endl;
     cout<<"Masukan Detik ="; cin>>s;
@@ -15,7 +15,7 @@ int main ()
     detik= sisa%60;
     cout<<hari<<"Hari\n"<<jam<<"Jam\n"<<menit<<"Menit\n"<<detik<<"Detik\n"<<endl;
     return 0;
-}
+    }
 
 
 
